@@ -1,0 +1,18 @@
+# Make Dart the main detected language
+*.dart linguist-detectable=true
+
+# Ignore auto-generated platform code
+*.cc linguist-detectable=false
+*.cpp linguist-detectable=false
+*.h linguist-detectable=false
+*.mm linguist-detectable=false
+*.swift linguist-detectable=false
+*.m linguist-detectable=false
+
+# Ignore build outputs
+/build linguist-vendored
+/ios/Pods linguist-vendored
+/android/app/build linguist-vendored
+
+# Ignore Flutter generated files
+**/GeneratedPluginRegistrant.* linguist-vendored

@@ -8,6 +8,8 @@
 *.mm linguist-detectable=false
 *.swift linguist-detectable=false
 *.m linguist-detectable=false
+*.cmake linguist-vendored
+CMakeLists.txt linguist-vendored
 
 # Ignore build outputs
 /build linguist-vendored

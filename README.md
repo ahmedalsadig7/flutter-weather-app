@@ -1,16 +1,35 @@
-# clima
+# 🌤️ Flutter Weather App
 
-A new Flutter project.
+A simple and beautiful weather application built with **Flutter**.  
+This app fetches real-time weather data using an external API and displays it in a clean, user-friendly interface.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
+- Get current weather by **device location** 🌍  
+- Search weather by **city name** 🏙️  
+- Display temperature, condition, and city name dynamically  
+- Background images change based on weather conditions  
+- Smooth loading animations using **Flutter Spinkit** ✨  
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Installation
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Prerequisites
+- [Flutter SDK](https://docs.flutter.dev/get-started/install) installed  
+- An IDE such as **Android Studio** or **VS Code**  
+
+### Steps
+```bash
+# Clone this repository
+git clone https://github.com/ahmedalsadig7/flutter-weather-app.git
+
+# Navigate into the project directory
+cd flutter-weather-app
+
+# Install dependencies
+flutter pub get
+
+# Run the app
+flutter run

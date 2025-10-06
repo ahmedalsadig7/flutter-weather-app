@@ -1,7 +1,7 @@
 import 'package:clima/services/location.dart';
 import 'package:clima/services/networking.dart';
 
- const weatherApiKey = 'a41c50a7951007f70fd8d22e1c707e01';
+ const weatherApiKey = 'Api key ';
 class WeatherModel {  
 
 Future getCurrentLocationData() async {
